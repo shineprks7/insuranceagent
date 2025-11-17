@@ -821,6 +821,12 @@ flex-wrap: nowrap;
    font-size: 16px;
    line-height: 20px;
 }
+
+.hero-right-subsection
+
+{
+  display: none;
+}
     .profile-row-left-section
 {
   width: 96%;
