@@ -6,7 +6,7 @@
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
-    white-space: nowrap;
+    white-space: normal;
     color: #191682;
 
 }
@@ -20,7 +20,7 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 60px;
-    white-space: nowrap;
+    white-space: normal;
     color: #fdefef;
 
 }
@@ -33,7 +33,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  white-space: nowrap;
+  white-space: normal;
   color: #fdefef;
 
 }
@@ -47,7 +47,7 @@
     font-weight: 700;
     font-size: 28px !important;
     line-height: 36px !important;
-    white-space: nowrap;
+    white-space: normal;
     color: #f6f5f5;
 }
 
@@ -59,7 +59,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    white-space: nowrap;
+    white-space: normal;
     color: #f9f4f4;
 }
 
@@ -70,7 +70,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    white-space: nowrap;
+    white-space: normal;
     color: #f6f6f6;
 }
 
@@ -81,7 +81,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    white-space: nowrap;
+    white-space: normal;
     text-align: center;
     color: #e7e3e3;
 }
@@ -162,7 +162,7 @@ margin-top: 0px;
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
-    white-space: nowrap;
+    white-space: normal;
     color: #191682;
     padding: 12px;
 
@@ -220,7 +220,7 @@ margin-top: 0px;
 {
       font-family: 'Anek Tamil';
         color: #191682;
-          white-space: nowrap;
+          white-space: normal;
           border-bottom: 2px solid #191682;
           height: 48px;
           margin-top: 96px;
@@ -259,6 +259,12 @@ margin-top: 0px;
     color: #f0e5e5;
 
     width: 80%;
+    }
+
+    .site-logo-text
+    {
+        font-size: 16px;
+        line-height: 20px;
     }
 
 }

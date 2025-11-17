@@ -76,7 +76,7 @@ background: #fdefef;
     align-items: center;
     flex-wrap: wrap;
 
-    position: relative;
+    position: fixed;
     top:0px;
     left:0px;
     z-index: 1000;
@@ -104,7 +104,7 @@ background: #fdefef;
 .slider-section
 {
     background-color: #fff;
-    height: 500px;
+    height: 100vh;
 }
 
 .slider-shape-container
@@ -780,6 +780,11 @@ flex-wrap: nowrap;
 
 @media (max-width:720px)  { 
 
+    .footer-logo-text
+{
+   font-size: 16px;
+   line-height: 20px;
+}
     .profile-row-left-section
 {
   width: 96%;
@@ -821,6 +826,11 @@ flex-wrap: nowrap;
   
 }
 
+.retirement-benefits-list-wrapper
+{
+    padding: 24px 24px;
+}
+
 .retirement-benefits-list-row
 {
   display: flex;
@@ -833,6 +843,11 @@ flex-wrap: nowrap;
   margin-top: 120px;
 
 
+}
+
+.retirement-benefits-list-card 
+{
+  width: 90%;
 }
 
 
