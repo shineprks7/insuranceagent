@@ -150,6 +150,8 @@ margin-top: 0px;
 .services-title
 {
     margin-top: 120px;
+  
+    text-align: center;
 
     
 }
@@ -160,11 +162,13 @@ margin-top: 0px;
     font-family: 'Anek Tamil Condensed';
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 28px;
     white-space: normal;
-    color: #191682;
-    padding: 12px;
+    color: #1f42a5;
+    padding: 8px 12px;
+    width: 360px;
+
 
 
 }
