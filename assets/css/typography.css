@@ -1,0 +1,265 @@
+
+.site-logo-text
+{
+    font-family: 'Anek Tamil Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    white-space: nowrap;
+    color: #191682;
+
+}
+
+
+.hero-title
+
+{
+    font-family: 'Anek Tamil Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    white-space: nowrap;
+    color: #fdefef;
+
+}
+
+.hero-sub-title
+
+{
+    font-family: 'Anek Tamil Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  white-space: nowrap;
+  color: #fdefef;
+
+}
+
+
+.heading-3
+
+{
+    font-family: 'Anek Tamil Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px !important;
+    line-height: 36px !important;
+    white-space: nowrap;
+    color: #f6f5f5;
+}
+
+.heading-5
+
+{
+    font-family: 'Anek Tamil Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #f9f4f4;
+}
+
+.body-text
+{
+    font-family: 'Anek Tamil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    white-space: nowrap;
+    color: #f6f6f6;
+}
+
+.body-text-big
+{
+    font-family: 'Anek Tamil Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    white-space: nowrap;
+    text-align: center;
+    color: #e7e3e3;
+}
+
+.profile-paragraph:first-of-type
+{
+margin-top: 0px;
+}
+.profile-paragraph
+
+{
+    font-family: 'Anek Tamil';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  white-space: normal;
+  color: #f6f6f6;
+  margin-top:48px;
+}
+
+
+
+
+.profile-section-step-text
+{
+    font-family: 'Anek Tamil Expanded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    white-space: normal;
+    width: 50%;
+    color: #f4eeee;
+
+}
+
+
+.why-choose-section .list-item-text
+
+{
+    font-family: 'Anek Tamil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    white-space: normal;
+    color: #f0e5e5;
+
+    width: 90%;
+
+
+}
+
+.why-choose-section .list-item-divider
+
+{
+  
+    height: 3px;
+    width: 100%;
+    background: #bdbdbd;
+    margin-top: 64px;
+
+}
+
+.services-title
+{
+    margin-top: 120px;
+
+    
+}
+.services-title span
+{
+    display: inline-block;
+    background-color: #fdefef;
+    font-family: 'Anek Tamil Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    white-space: nowrap;
+    color: #191682;
+    padding: 12px;
+
+
+}
+
+
+.insurance-section-main-title
+{
+    color: #fdefef;
+    margin-top:96px;
+}
+
+.insurance-section-title
+{
+    color: #fdefef;
+    margin-top: 24px;
+}
+
+.insurance-section-title-paragraph
+{
+    font-family: 'Anek Tamil';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  white-space: normal;
+  color: #fdefef;
+
+  margin-top: 32px;
+}
+
+
+.retirement-section-main-title
+{
+    color: #191682 !important;
+    margin-top:96px;
+
+}
+
+.retirement-section-title
+{
+    color: #191682 !important;
+    font-family: 'Anek Tamil';
+  font-style: normal;
+  font-weight: 700;
+  white-space: normal;
+  margin-top:24px;
+
+}
+
+
+
+.retirement-benefits-title
+{
+      font-family: 'Anek Tamil';
+        color: #191682;
+          white-space: nowrap;
+          border-bottom: 2px solid #191682;
+          height: 48px;
+          margin-top: 96px;
+
+}
+
+.other-services-title
+{
+    
+  
+  color: #1f42a5;
+
+}
+
+.final-cta-content
+{
+    font-family: 'Anek Tamil Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.4px;
+    line-height: 20px;
+    white-space: normal;
+    color: #10053a;
+}
+
+@media screen and (min-height:500px)  { 
+    .why-choose-section .list-item-text
+
+    {
+    font-family: 'Anek Tamil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    white-space: normal;
+    color: #f0e5e5;
+
+    width: 80%;
+    }
+
+}
+

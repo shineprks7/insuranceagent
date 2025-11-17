@@ -1,0 +1,34 @@
+
+.scroll-reveal
+{
+    opacity: 0;
+}
+.about-section .scroll-reveal
+{
+ transition: opacity 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.why-choose-section .scroll-reveal
+
+{
+    transition: opacity 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+}
+
+.insurance-section .scroll-reveal
+{
+    transition: opacity 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+   
+}
+
+.retirement-section .scroll-reveal
+{
+    transition: opacity 0.5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+   
+}
+
+.other-services-section .scroll-reveal
+{
+    transition: opacity 0.5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+ 
+}

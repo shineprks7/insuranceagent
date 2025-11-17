@@ -1,0 +1,234 @@
+.hero-button
+{
+    position: relative;
+    min-width: 160;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #101045;
+    display: flex;
+    align-items: center;
+    padding:12px 48px;
+
+    gap: 12px;
+
+   
+    font-family: 'Anek Tamil Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    white-space: nowrap;
+    color: #fdefef;
+
+    cursor: pointer;
+    margin-top:64px;
+    transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.hero-button:hover
+{
+  gap:32px;
+  box-shadow: #101045 0px 4px 12px, #101045 0px -4px 12px ;
+}
+
+
+.nav-cta-button
+{
+    overflow: hidden;
+    border-radius: 12px;
+    background: #191682;
+
+   
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #fdefef;
+
+    display: flex;
+    align-items: center;
+    padding:8px 12px;
+
+    gap: 12px;
+}
+
+.final-cta-button
+
+{
+    position: relative;
+    min-width: 160px;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #101045;
+
+    display: flex;
+    align-items: center;
+    padding:12px 24px;
+
+    gap: 12px;
+
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1;
+    line-height: 24px;
+    white-space: nowrap;
+    color: #fdefef;
+
+    cursor: pointer;
+
+}
+.retirement-cta-button-wrapper
+{
+
+    margin-top: 96px;
+  margin-bottom: 96px;
+}
+
+.retirement-cta-button
+{
+
+    cursor: pointer;
+
+    max-width: 80%;
+    min-width:  360px;
+    overflow: hidden;
+    background: #1f42a5;
+
+    
+    display: flex;
+    align-items: center;
+    padding:12px 24px;
+
+    gap: 24px;
+
+
+    font-family: 'Anek Tamil Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  white-space: normal;
+  color: #fdefef;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+  
+  
+}
+
+.retirement-cta-button:hover
+{
+  gap:32px;
+  box-shadow: #191682 0px 4px 12px, #191682 0px -4px 12px ;
+}
+
+.insurance-cta-button-wrapper
+{
+    background: #191682;
+
+    padding-top:24px;
+    padding-bottom: 24px;
+}
+
+
+.insurance-cta-button
+{
+
+    cursor: pointer;
+
+    max-width: 80%;
+    min-width:  360px;
+    overflow: hidden;
+    background: #fdefef;
+    
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    padding:12px 24px;
+
+    gap: 24px;
+
+
+    font-family: 'Anek Tamil Condensed';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  white-space: normal;
+  color: #191682;
+
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+  transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+  
+}
+
+.insurance-cta-button:hover
+{
+  gap:32px;
+  box-shadow: #fdefef 0px 4px 12px, #fdefef 0px -4px 12px ;
+}
+
+.services-button-container
+{
+    display: flex;
+    gap:48px;
+    flex-wrap: wrap;
+
+    margin-top: 24px;
+
+    
+}
+
+.service-item-button
+{
+
+    cursor: pointer;
+
+    /* min-width:  360px; */
+    overflow: hidden;
+    
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    padding:12px 24px;
+
+    gap: 24px;
+
+    background-color: inherit;
+
+
+    font-family: 'Anek Tamil Condensed';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  white-space: normal;
+  color: #fdefef;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 400px;
+  text-align: left;
+
+
+
+  
+  
+}
+
