@@ -78,77 +78,77 @@ function handleScroll(event)
 
     
     
-    stickyStepWrapper.forEach((el) => {
+    // stickyStepWrapper.forEach((el) => {
 
 
-        let elPosition = el.getBoundingClientRect();
+    //     let elPosition = el.getBoundingClientRect();
 
-         let top = elPosition.top;
-         let bottom = elPosition.bottom;
+    //      let top = elPosition.top;
+    //      let bottom = elPosition.bottom;
 
-         let elheight  = el.clientHeight;
+    //      let elheight  = el.clientHeight;
 
-         let currentPosition = -top;
+    //      let currentPosition = -top;
 
 
-          let stickyContainer = el.querySelector('.profile-section-step-container');
+    //       let stickyContainer = el.querySelector('.profile-section-step-container');
 
                 
-          let stepper1 = el.querySelector('.profile-section-step-1');
-          let stepper2 = el.querySelector('.profile-section-step-2');
-          let stepper3 = el.querySelector('.profile-section-step-3');
+    //       let stepper1 = el.querySelector('.profile-section-step-1');
+    //       let stepper2 = el.querySelector('.profile-section-step-2');
+    //       let stepper3 = el.querySelector('.profile-section-step-3');
 
-          let point = elheight/100;
+    //       let point = elheight/100;
     
-          let pointToPercent = Math.round((currentPosition  / point ) ,0);
+    //       let pointToPercent = Math.round((currentPosition  / point ) ,0);
 
-          console.log("pointToPercent"+pointToPercent);
+    //       console.log("pointToPercent"+pointToPercent);
 
-          if(currentPosition > 0 )
-          {
+    //       if(currentPosition > 0 )
+    //       {
 
-              if(pointToPercent > 16)
-              {
-                stepper3.classList.add('show-stepper');
+    //           if(pointToPercent > 16)
+    //           {
+    //             stepper3.classList.add('show-stepper');
                 
-              }
-              if(pointToPercent > 32)
-              {
-                stepper2.classList.add('show-stepper');
+    //           }
+    //           if(pointToPercent > 32)
+    //           {
+    //             stepper2.classList.add('show-stepper');
                 
-              }
-              if(pointToPercent > 48)
-              {
-                stepper1.classList.add('show-stepper');
+    //           }
+    //           if(pointToPercent > 48)
+    //           {
+    //             stepper1.classList.add('show-stepper');
                 
-              }
+    //           }
               
-          }
+    //       }
 
 
-          if(top < 0   )
-          {
+    //       if(top < 0   )
+    //       {
 
-              stickyContainer.classList.add('sticky-active');
+    //           stickyContainer.classList.add('sticky-active');
 
-          }
-          else
-          {
-              stickyContainer.classList.remove('sticky-active');
+    //       }
+    //       else
+    //       {
+    //           stickyContainer.classList.remove('sticky-active');
    
-          }
+    //       }
           
 
-          if(bottom < 100 )
-          {
+    //       if(bottom < 100 )
+    //       {
 
-              stickyContainer.classList.remove('sticky-active');
-
-
-          }
+    //           stickyContainer.classList.remove('sticky-active');
 
 
-     });
+    //       }
+
+
+    //  });
 
     stickyTitleWatch.forEach((el) => {
 

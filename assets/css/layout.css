@@ -196,12 +196,14 @@ background: #fdefef;
     border-radius: 120px;
     background: #2329d1;
     border: 24px  solid #808080;
+    text-align: center;
+    
 }
 .profile-badge-wrapper
 {
     margin-top: 80px;
 
-    width: 274px;
+    width: 320px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -229,15 +231,25 @@ background: #fdefef;
 .profile-section-step-wrapper
 {
 
-    margin-top: 296px;
 
-    height: 300vh;
+    height: auto;
+
+}
+
+.profile-section-step-container
+{
+
+
+    width:100%;
+
+    height: 300px;
+    position: relative;
 
 }
 
 .profile-section-step
 {
-    position: relative;
+  
   width: 800px;
   height: 96px;
   overflow: hidden;
@@ -251,7 +263,7 @@ background: #fdefef;
 
   flex-wrap: wrap;
 
-  opacity: 0;
+  opacity: 1;
   transition:opacity 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
 
 }
@@ -271,18 +283,32 @@ background: #fdefef;
 {
     background: #191682;
 
-    margin-left: 96px;
+
+    bottom: 0px;
+    position: absolute;
+     left: 0px;
+
 }
 
 .profile-section-step-2
 {
     background: #1f42a5;
-    margin-left: 48px;
+    /* margin-left: 48px; */
+
+    top: 50%;
+    position: absolute;
+     left: 48px;
+     transform: translate(0,-50%);
 
 }
 .profile-section-step-3
 {
     background: #191682;
+
+    top: 0px;
+    position: absolute;
+     left: 96px;
+
 
 }
 
@@ -448,6 +474,16 @@ background: #fdefef;
 {
      width:100%;
      height: auto;
+}
+
+.retirement-image-desktop
+{
+  display: inline-block;
+}
+.retirement-image-mobile
+{
+    display: none;
+  
 }
 
 .retirement-benefits-list-wrapper
@@ -797,6 +833,31 @@ flex-wrap: nowrap;
    margin-top:120px;
 }
 
+.profile-section-step-1
+{
+  left: 0px;
+}
+
+.profile-section-step-2
+{
+    left: 0px;
+   
+}
+.profile-section-step-3
+{
+    left: 0px;
+ 
+}
+
+.profile-section-step
+{
+ width: 96%;
+ gap:24px;
+
+ 
+}
+
+
 .insurance-section-imagewrap img
 {
      max-width: 90%;
@@ -826,9 +887,20 @@ flex-wrap: nowrap;
   
 }
 
+.retirement-image-desktop
+{
+  display: none;
+}
+.retirement-image-mobile
+{
+    display: inline-block;
+  
+}
+
+
 .retirement-benefits-list-wrapper
 {
-    padding: 24px 24px;
+    padding: 8px 8px;
 }
 
 .retirement-benefits-list-row
@@ -847,7 +919,7 @@ flex-wrap: nowrap;
 
 .retirement-benefits-list-card 
 {
-  width: 90%;
+  width: 100%;
 }
 
 
@@ -855,7 +927,7 @@ flex-wrap: nowrap;
   {
     background-color: #1f42a5;
 
-    width: calc(100% - 24px);
+    width: 100%;
     padding:24px 24px;
 
   }
@@ -886,11 +958,7 @@ flex-wrap: nowrap;
 
 }
 
-.profile-section-step
-{
- width: 80%;
- 
-}
+
 
 .footer-row
 {
