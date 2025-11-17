@@ -620,7 +620,7 @@ background: #fdefef;
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
-    white-space: nowrap;
+    white-space: normal;
     color: #fdefef;
 
 }
@@ -733,7 +733,7 @@ flex-wrap: nowrap;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-  white-space: nowrap;
+  white-space: normal;
   color: #f2e1e1;
 
   margin-top: 12px;
@@ -746,7 +746,7 @@ flex-wrap: nowrap;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  white-space: nowrap;
+  white-space: normal;
   color: #fdefef;
 
 }
@@ -771,7 +771,7 @@ flex-wrap: nowrap;
     font-weight: 700;
     font-size: 15px;
     line-height: 21px;
-    white-space: nowrap;
+    white-space: normal;
     color: #f2e1e1;
     margin-top: 24px;
 }
@@ -856,7 +856,7 @@ flex-wrap: nowrap;
     background-color: #1f42a5;
 
     width: calc(100% - 24px);
-    padding:48px 48px;
+    padding:24px 24px;
 
   }
 
