@@ -13,6 +13,8 @@
 
    
     font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -123,6 +125,8 @@
 
 
     font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -176,6 +180,8 @@
 
 
     font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -235,6 +241,8 @@
 
 
     font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

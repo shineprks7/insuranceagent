@@ -28,7 +28,9 @@
   gap:24px;
   margin: 0px;
 
-  font-family: 'Anek Tamil Condensed';
+  font-family: 'Anek Tamil';
+  font-variation-settings:"wdth" 70;
+
   font-style: normal;
   font-weight: 500;
   font-size: 16.4px;
@@ -43,6 +45,8 @@
   display: none;
 
   font-family: 'Anek Tamil Condensed';
+  font-family: 'Anek Tamil';
+  font-variation-settings:"wdth" 70;
   font-style: normal;
   font-weight: 700;
   font-size: 16.4px;
