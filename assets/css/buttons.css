@@ -22,8 +22,22 @@
 
     cursor: pointer;
     margin-top:64px;
-    transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+    transform: translate(0%, 500%);
+
+    transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+    transition-delay: 1s;
+
 }
+.hero-button.show
+{
+
+  transform: translate(0%, 0%);
+
+  
+
+}
+
+
 
 .hero-button:hover
 {
