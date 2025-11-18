@@ -920,6 +920,12 @@ flex-wrap: nowrap;
 
 @media (max-width:720px)  { 
 
+
+    .hero-left-subsection
+{
+
+ width: 96%;
+}
     .footer-logo-text
 {
    font-size: 16px;
