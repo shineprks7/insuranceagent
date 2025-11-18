@@ -302,7 +302,7 @@ background: #fdefef;
 
 .profile-section-step-1
 {
-    background: #191682;
+    /* background: #191682; */
 
 
     bottom: 0px;
@@ -313,7 +313,7 @@ background: #fdefef;
 
 .profile-section-step-2
 {
-    background: #1f42a5;
+    /* background: #1f42a5; */
     /* margin-left: 48px; */
 
     top: 50%;
@@ -324,7 +324,7 @@ background: #fdefef;
 }
 .profile-section-step-3
 {
-    background: #191682;
+    /* background: #191682; */
 
     top: 0px;
     position: absolute;
@@ -741,7 +741,7 @@ background: #fdefef;
 .cta-final-wrapper
 {
     position: relative;
-    width: 80%;
+    width: 100%;
     overflow: hidden;
     border-radius: 13px;
     border: 4px  solid #10053a;
