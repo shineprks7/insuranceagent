@@ -451,6 +451,8 @@ background: #fdefef;
 
 {
     font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -469,7 +471,6 @@ background: #fdefef;
 .insurance-card-paragraph
 
 {
-    font-family: 'Anek Tamil';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -677,6 +678,8 @@ background: #fdefef;
   .other-services-card .other-services-title
 {
     font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -703,7 +706,6 @@ background: #fdefef;
 
 .other-services-card .other-services-content
 {
-    font-family: 'Anek Tamil';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -823,6 +825,9 @@ flex-wrap: nowrap;
 .footer-logo-text
 {
     font-family: 'Anek Tamil Condensed';
+    font-family: "Anek Tamil", sans-serif;
+  font-variation-settings:"wdth" 70;
+    
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -852,7 +857,6 @@ flex-wrap: nowrap;
 
 .footer-solicitation-info
 {
-      font-family: 'Anek Tamil';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -877,7 +881,6 @@ flex-wrap: nowrap;
 
 .footer-licence-info-listitem
 {
-    font-family: 'Anek Tamil';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
