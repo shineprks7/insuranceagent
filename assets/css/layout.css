@@ -659,7 +659,7 @@ background: #fdefef;
     display: flex;
     justify-content: space-between;
 
-    gap:0;
+    gap:24px;
 
     flex-wrap: wrap;
 
@@ -757,7 +757,7 @@ background: #fdefef;
     display: flex;
     justify-content: space-between;
 
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
 
 }

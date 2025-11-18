@@ -217,7 +217,7 @@ margin-top: 0px;
     white-space: normal;
     color: #1f42a5;
     padding: 8px 12px;
-    width: 360px;
+    width: auto;
 
 
 
@@ -298,6 +298,8 @@ margin-top: 0px;
     line-height: 20px;
     white-space: normal;
     color: #10053a;
+
+    width: 360px;
 }
 .slider-cta-content
 {
