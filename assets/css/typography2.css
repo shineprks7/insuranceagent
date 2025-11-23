@@ -34,8 +34,8 @@ font-variation-settings:"wdth" 70;
 {
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 64px;
+    font-size: 36px;
+    line-height: 48px;
     white-space: normal;
     color: #fdefef;
 
@@ -44,7 +44,7 @@ font-variation-settings:"wdth" 70;
 .hero-title .hero-text-part
 {
   display: inline-block;
-  height: 72px;
+  height: 60px;
   overflow: hidden;
 }
 
