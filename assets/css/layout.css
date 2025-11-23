@@ -78,9 +78,9 @@ background: #fdefef;
 .nav-bar-wrapper
 {
     width: 100%;
-    height: 72px;
+    height: 96px;
     overflow: hidden;
-    background: #fdefef;
+    background: #fff;
     position: absolute;
 
     padding-left: 8.33%;
@@ -112,12 +112,13 @@ background: #fdefef;
 {
     height: 698px;
     overflow: hidden;
-    background: linear-gradient(180deg, #474284 0%, #16a581 100%);
-}
+    background: linear-gradient(180deg, #231e65 0%, #166ca5 100%);
+  
+  }
 
 .slider-section
 {
-    background-color: #fff;
+    /* background-color: #fff; */
     height: 100vh;
 
     display: flex;
@@ -142,8 +143,9 @@ background: #fdefef;
     width: 100%;
     height: auto;
     overflow: hidden;
-    background: #10053a;
     padding-bottom: 120px;
+
+
 
 }
 
@@ -153,20 +155,27 @@ background: #fdefef;
     width: 100%;
     height: auto;
     overflow: hidden;
-    background: #191682;
 
-    padding-bottom: 96px;
+    padding-bottom: 120px;
     
 }
+.services-section
+{
+    position: relative;
+    width: 100%;
 
+    overflow: hidden;
+    padding-bottom: 120px;
+}
 .insurance-section
 {
     position: relative;
     width: 100%;
 
     overflow: hidden;
-    background: #1f42a5;
     padding-bottom: 120px;
+
+    border-top:2px solid #fff;
 }
 
 .retirement-section
@@ -175,7 +184,6 @@ background: #fdefef;
     width: 100%;
     
     overflow: hidden;
-    background: #fdefef;
 }
 
 
@@ -183,48 +191,122 @@ background: #fdefef;
 {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
 
-    margin-top: 104px;
+    margin-top: 2px;
+    position: relative;
 
 
 }
 
+
+
 .profile-row-left-section
 {
   width: 48%;
+
+  padding:24px 16px;
+  position: relative;
+  height: 600px;
+
 
 }
 
 .profile-row-right-section
 {
    width: 48%; 
+   padding:24px 16px;
+   position: relative;
+
+   height: 600px;
+
 }
+
+
+
+
+
 
 
 .about-section-title
 {
     margin-top: 120px;
+
+    border-bottom:2px solid blue;
+
+    position: relative;
     
+}
+
+.why-choose-section-title
+{
+    margin-top: 120px;
+
+
+    position: relative;
+    
+}
+
+/* .about-section-balance-circle
+{
+   background-color: blue;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   position: absolute;
+   right: 0px;
+   top:50%;
+   transform: translate(0,-50%);
+}
+
+.about-section-balance-circle-2
+{
+   background-color: blue;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   position: absolute;
+   right: 32px;
+   top:50%;
+   transform: translate(0,-50%);
+}
+
+.about-section-balance-circle-3
+{
+   background-color: blue;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   position: absolute;
+   right: 64px;
+   top:50%;
+   transform: translate(0,-50%);
+} */
+
+.profile-art-wrapper
+{
+  text-align: center;
 }
 
 .profie_art_image
 {
-    width: 341px;
-    height: 360px;
+    width: calc(341px - 68px);
+    height: calc( 360px -72px);
     overflow: hidden;
-    border-radius: 120px;
-    background: #2329d1;
-    border: 24px  solid #808080;
+    border-radius: 12px;
+    border: 8px  solid #808080;
     text-align: center;
+    object-fit: cover;
+    background-color: #1f85a5;
+  
     
 }
 .profile-badge-wrapper
 {
-    margin-top: 80px;
+    margin-top: 24px;
 
-    width: 320px;
+    width: 260px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -236,8 +318,7 @@ background: #fdefef;
     
     overflow: hidden;
     border-radius: 12px;
-    background: #393b6e;
-    border: 4px  solid #808080;
+    border: 2px  solid #808080;
     align-items: center;
     flex-wrap: wrap;
 
@@ -252,10 +333,19 @@ background: #fdefef;
 .profile-section-step-wrapper
 {
 
+  
+
 
     height: auto;
 
+    padding: 24px 16px;
+    margin-top: 2px;
+
+    position: relative;
+
 }
+
+
 
 .profile-section-step-container
 {
@@ -274,7 +364,8 @@ background: #fdefef;
   width: 800px;
   height: 96px;
   overflow: hidden;
-  border: 2px  solid #dad4d4;
+  border-width: 1px;
+  border-style: solid;
   display: flex;
   justify-content: space-around;
 
@@ -286,6 +377,7 @@ background: #fdefef;
 
   opacity: 1;
   transition:opacity 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
+
 
 }
 .profile-section-step.show-stepper
@@ -411,7 +503,6 @@ background: #fdefef;
     min-height:400px ;
     padding:24px;
 
-    background-color: #1F42A5;
 }
 
 
@@ -450,15 +541,15 @@ background: #fdefef;
 .insurance-card-title
 
 {
-    font-family: 'Anek Tamil Condensed';
+    /* font-family: 'Anek Tamil Condensed';
     font-family: "Anek Tamil", sans-serif;
   font-variation-settings:"wdth" 70;
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
   line-height: 36px;
-  white-space: normal;
-  color: #fdefef;
+  white-space: normal; */
+  /* color: #fdefef; */
 
   display: block;
 
@@ -471,12 +562,12 @@ background: #fdefef;
 .insurance-card-paragraph
 
 {
-    font-style: normal;
+    /* font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    white-space: normal;
-    color: #fdefef;
+    white-space: normal; */
+    /* color: #fdefef; */
     margin-top: 20px;
     /* background-color: rgba(42, 8, 105, 0.10); */
 
@@ -521,7 +612,7 @@ background: #fdefef;
     border-radius: 24px;
     /* background: linear-gradient(180deg, #b89898 0%, #4356a0 100%); */
 
-    border: 1px double #4356a0 ;
+    /* border: 1px double #4356a0 ; */
   }
 
 
@@ -550,7 +641,7 @@ background: #fdefef;
     width: 136px;
     height: 136px;
     overflow: hidden;
-    border: 2px  solid #4356a0;
+    /* border: 2px  solid #4356a0; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -562,8 +653,8 @@ background: #fdefef;
     line-height: 60px;
     white-space: nowrap;
     text-align: center;
-    color: #4356a0;
-    background-color: #dad4d4;
+    /* color: #4356a0; */
+    /* background-color: #dad4d4; */
     border-radius: 0%;
 
 
@@ -595,19 +686,20 @@ background: #fdefef;
   .retirement-benefits-list-card 
   {
     position: relative;
-    width: 400px;
+    width: 100%;
     /* height: 240px; */
     overflow: hidden;
-    background: #4356a0;
-    background: #dad4d4;
+    /* background: #4356a0; */
+    /* background: #dad4d4; */
 
     /* display: flex;
     justify-content: flex-start;
     padding: 24px;
     align-content: center; */
 
-    padding: 24px;
+   padding: 0px;
 
+   text-align: center;
 
    
 
@@ -615,6 +707,7 @@ background: #fdefef;
 
   .retirement-benifit-image-wrapper
   {
+    padding:24px;
 
   }
   .retirement-benifit-image-wrapper img
@@ -626,15 +719,23 @@ background: #fdefef;
 
   .retirement-benifit-paragraph
   {
-    font-family: 'Anek Tamil';
+    /* font-family: 'Anek Tamil';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 20px; */
     white-space: normal;
-    color: #ffffff;
-    color: #191682;
-    margin-top:24px;
+    /* color: #ffffff;
+    color: #191682; */
+    /* margin-top:24px; */
+    padding:24px;
+    background-color: #1f85a5;
+
+    color:#fff;
+
+    font-weight: bold;
+
+    margin:0px;
 
     
   }
@@ -668,7 +769,7 @@ background: #fdefef;
 
   .other-services-card
   {
-    background-color: #1f42a5;
+    /* background-color: #1f42a5; */
 
     width: 48% ;
     padding:48px 48px;
@@ -677,15 +778,15 @@ background: #fdefef;
 
   .other-services-card .other-services-title
 {
-    font-family: 'Anek Tamil Condensed';
+    /* font-family: 'Anek Tamil Condensed';
     font-family: "Anek Tamil", sans-serif;
   font-variation-settings:"wdth" 70;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 24px; */
     white-space: normal;
-    color: #fdefef;
+    /* color: #fdefef; */
 
 }
 .other-services-card  .other-services-image-wrap
@@ -706,12 +807,12 @@ background: #fdefef;
 
 .other-services-card .other-services-content
 {
-    font-style: normal;
+    /* font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    white-space: normal;
-    color: #fdefef;
+    white-space: normal; */
+    /* color: #fdefef; */
 
     min-height: 360px;
 
@@ -746,7 +847,7 @@ background: #fdefef;
     width: 100%;
     overflow: hidden;
     border-radius: 13px;
-    border: 4px  solid #10053a;
+    /* border: 4px  solid #10053a; */
     margin-top: 120px;
     margin-bottom: 120px;
     padding: 48px;
@@ -770,7 +871,7 @@ background: #fdefef;
     width: 80%;
     overflow: hidden;
     border-radius: 13px;
-    border: 4px  solid #10053a;
+    /* border: 4px  solid #10053a; */
     padding: 24px;
 
     padding-top: 8px;
@@ -799,7 +900,7 @@ background: #fdefef;
     position: relative;
     height: auto;
     overflow: hidden;
-    background: #10053a;
+    /* background: #10053a; */
     
     padding-top: 120px;
     padding-bottom: 120px;
@@ -833,7 +934,7 @@ flex-wrap: nowrap;
     font-size: 28px;
     line-height: 36px;
     white-space: normal;
-    color: #fdefef;
+    /* color: #fdefef; */
     margin-bottom: 64px;
 }
 
@@ -845,24 +946,24 @@ flex-wrap: nowrap;
     gap:24px;
     font-family: 'Inter';
 
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 19px;
-  white-space: normal;
-  color: #f2e1e1;
+  line-height: 20px;
+  white-space: normal; */
+  /* color: #f2e1e1; */
 
   margin-top: 12px;
 }
 
 .footer-solicitation-info
 {
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  white-space: normal;
-  color: #fdefef;
+  white-space: normal; */
+  /* color: #fdefef; */
 
 }
 
@@ -881,12 +982,12 @@ flex-wrap: nowrap;
 
 .footer-licence-info-listitem
 {
-    font-style: normal;
+    /* font-style: normal;
     font-weight: 700;
-    font-size: 15px;
-    line-height: 21px;
-    white-space: normal;
-    color: #f2e1e1;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: normal; */
+    /* color: #f2e1e1; */
     margin-top: 24px;
 }
 
@@ -909,7 +1010,7 @@ flex-wrap: nowrap;
 
     .other-services-card
   {
-    background-color: #1f42a5;
+    /* background-color: #1f42a5; */
 
     width: 75%;
     padding:24px 24px;
@@ -941,6 +1042,15 @@ flex-wrap: nowrap;
 {
   width: 96%;
 
+}
+
+.profile-badge-wrapper
+{
+    margin-top: 24px;
+
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profile-row-right-section
@@ -1041,7 +1151,7 @@ flex-wrap: nowrap;
 
 .other-services-card
   {
-    background-color: #1f42a5;
+    /* background-color: #1f42a5; */
 
     width: 100%;
     padding:24px 24px;

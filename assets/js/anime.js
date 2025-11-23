@@ -6,6 +6,14 @@ const asterik ="M110 210L110 144L63.5 190.75L49.25 176.5L96 130L30 130L30 110L96
 const circle ="M50 110C50 76.8629 76.8629 50 110 50C143.137 50 170 76.8629 170 110C170 143.137 143.137 170 110 170C76.8629 170 50 143.137 50 110Z";
 
 
+const family ="M60 160C54.5 160 49.7917 158.042 45.875 154.125C41.9583 150.208 40 145.5 40 140C40 134.5 41.9583 129.792 45.875 125.875C49.7917 121.958 54.5 120 60 120C65.5 120 70.2083 121.958 74.125 125.875C78.0417 129.792 80 134.5 80 140C80 145.5 78.0417 150.208 74.125 154.125C70.2083 158.042 65.5 160 60 160ZM180 160C174.5 160 169.792 158.042 165.875 154.125C161.958 150.208 160 145.5 160 140C160 134.5 161.958 129.792 165.875 125.875C169.792 121.958 174.5 120 180 120C185.5 120 190.208 121.958 194.125 125.875C198.042 129.792 200 134.5 200 140C200 145.5 198.042 150.208 194.125 154.125C190.208 158.042 185.5 160 180 160C180 160 180 160 180 160ZM120 150C113 150 107.083 147.583 102.25 142.75C97.4167 137.917 95 132 95 125C95 118 97.4167 112.083 102.25 107.25C107.083 102.417 113 100 120 100C127 100 132.917 102.417 137.75 107.25C142.583 112.083 145 118 145 125C145 132 142.583 137.917 137.75 142.75C132.917 147.583 127 150 120 150C120 150 120 150 120 150ZM71 210C73.3333 198.5 79.0417 188.958 88.125 181.375C97.2083 173.792 107.833 170 120 170C132.167 170 142.792 173.792 151.875 181.375C160.958 188.958 166.667 198.5 169 210C169 210 71 210 71 210ZM20 210C20 199 23.9167 189.583 31.75 181.75C39.5833 173.917 49 170 60 170C62.8333 170 65.5 170.25 68 170.75C70.5 171.25 72.9167 172 75.25 173C70.25 177.833 66.0833 183.375 62.75 189.625C59.4167 195.875 57.1667 202.667 56 210C56 210 20 210 20 210C20 210 20 210 20 210ZM184 210C182.833 202.667 180.583 195.875 177.25 189.625C173.917 183.375 169.75 177.833 164.75 173C167.083 172 169.5 171.25 172 170.75C174.5 170.25 177.167 170 180 170C191 170 200.417 173.917 208.25 181.75C216.083 189.583 220 199 220 210C220 210 184 210 184 210C184 210 184 210 184 210ZM22 120C22 120 10 104 10 104L120 20L160 50.5L160 30L190 30L190 73.5L230 104L218 120L120 45.25C120 45.25 22 120 22 120Z";
+
+
+
+
+const commercialvehicle ="M60 200C51.6667 200 44.5833 197.083 38.75 191.25C32.9167 185.417 30 178.333 30 170C30 170 10 170 10 170C10 170 10 60 10 60C10 54.5 11.9583 49.7917 15.875 45.875C19.7917 41.9583 24.5 40 30 40C30 40 170 40 170 40L170 80L200 80L230 120L230 170C230 170 210 170 210 170C210 178.333 207.083 185.417 201.25 191.25C195.417 197.083 188.333 200 180 200C171.667 200 164.583 197.083 158.75 191.25C152.917 185.417 150 178.333 150 170C150 170 90 170 90 170C90 178.333 87.0833 185.417 81.25 191.25C75.4167 197.083 68.3333 200 60 200C60 200 60 200 60 200ZM60 180C62.8333 180 65.2083 179.042 67.125 177.125C69.0417 175.208 70 172.833 70 170C70 167.167 69.0417 164.792 67.125 162.875C65.2083 160.958 62.8333 160 60 160C57.1667 160 54.7917 160.958 52.875 162.875C50.9583 164.792 50 167.167 50 170C50 172.833 50.9583 175.208 52.875 177.125C54.7917 179.042 57.1667 180 60 180C60 180 60 180 60 180ZM30 150C30 150 38 150 38 150C40.8333 147 44.0833 144.583 47.75 142.75C51.4167 140.917 55.5 140 60 140C64.5 140 68.5833 140.917 72.25 142.75C75.9167 144.583 79.1667 147 82 150C82 150 150 150 150 150L150 60L30 60L30 150L30 150ZM180 180C182.833 180 185.208 179.042 187.125 177.125C189.042 175.208 190 172.833 190 170C190 167.167 189.042 164.792 187.125 162.875C185.208 160.958 182.833 160 180 160C177.167 160 174.792 160.958 172.875 162.875C170.958 164.792 170 167.167 170 170C170 172.833 170.958 175.208 172.875 177.125C174.792 179.042 177.167 180 180 180C180 180 180 180 180 180ZM170 130L212.5 130L190 100L170 100L170 130L170 130Z";
+
+
 
 const motorbike = "M70 170C61.6667 170 54.5833 167.083 48.75 161.25C42.9167 155.417 40 148.333 40 140C40 140 20 140 20 140C20 140 20 110 20 110C20 99 23.9167 89.5833 31.75 81.75C39.5833 73.9167 49 70 60 70C60 70 100 70 100 70L100 120L135 120L170 76.5L170 50L140 50L140 30C140 30 170 30 170 30C175.5 30 180.208 31.9583 184.125 35.875C188.042 39.7917 190 44.5 190 50C190 50 190 83.5 190 83.5L145 140C145 140 100 140 100 140C100 148.333 97.0833 155.417 91.25 161.25C85.4167 167.083 78.3333 170 70 170C70 170 70 170 70 170ZM70 150C72.8333 150 75.2083 149.042 77.125 147.125C79.0417 145.208 80 142.833 80 140C80 140 60 140 60 140C60 142.833 60.9583 145.208 62.875 147.125C64.7917 149.042 67.1667 150 70 150C70 150 70 150 70 150ZM50 60L50 40L100 40L100 60L50 60L50 60ZM190 170C181.667 170 174.583 167.083 168.75 161.25C162.917 155.417 160 148.333 160 140C160 131.667 162.917 124.583 168.75 118.75C174.583 112.917 181.667 110 190 110C198.333 110 205.417 112.917 211.25 118.75C217.083 124.583 220 131.667 220 140C220 148.333 217.083 155.417 211.25 161.25C205.417 167.083 198.333 170 190 170C190 170 190 170 190 170ZM190 150C192.833 150 195.208 149.042 197.125 147.125C199.042 145.208 200 142.833 200 140C200 137.167 199.042 134.792 197.125 132.875C195.208 130.958 192.833 130 190 130C187.167 130 184.792 130.958 182.875 132.875C180.958 134.792 180 137.167 180 140C180 142.833 180.958 145.208 182.875 147.125C184.792 149.042 187.167 150 190 150C190 150 190 150 190 150ZM130 230L70 200L110 200L110 180L170 210L130 210L130 230L130 230ZM40 120L80 120L80 90C80 90 60 90 60 90C54.5 90 49.7917 91.9583 45.875 95.875C41.9583 99.7917 40 104.5 40 110C40 110 40 120 40 120L40 120Z";
 
@@ -106,8 +114,8 @@ const svg = d3.select('#slider-path-wrapper')
                .append('svg')
                 .attr("width",width)
                 .attr("height",height)
-                .style("border","1px solid #ddd")
-                .attr("transform","rotate(0) scale(0.5)");
+                .style("border","0px solid #ddd")
+                .attr("transform","rotate(0) scale(0.75)");
 
 
    const path =    svg.append("path")
@@ -115,8 +123,7 @@ const svg = d3.select('#slider-path-wrapper')
 
          .attr("id","slider_animated_path")
 
-         .attr("fill","blue")
-         .attr("stroke","tomato")
+         .attr("fill","#7dda13")
          .attr("stroke-width", 2);
 
 
@@ -144,54 +151,118 @@ function delay(ms)
 
 }
 
-async function runSequence()
+function hightlightanimationtext(text)
+{
+
+   const animhighlight = document.querySelectorAll('.anim-highlight');
+
+
+   animhighlight.forEach((el) => {
+ 
+
+    el.classList.remove('active');
+
+
+   });
+
+   const slidercontent = document.querySelector('.slider-cta-content');
+
+   const getEl = slidercontent.querySelector("."+text);
+
+
+   getEl.classList.add('active');
+
+
+   
+}
+
+async function runSequence(type)
 {
        console.log("Start");
        await delay(500);
-       shapeAnimation(circle, motorbike);
+
+       if(type == 'initial')
+       {
+        hightlightanimationtext('family');
+
+       shapeAnimation(circle,family);
+       }
+       else
+       {
+        hightlightanimationtext('family');
+
+       shapeAnimationSeperate(circle,family);
+
+       }
+
        await delay(2000);
-
-       shapeAnimationCombine(circle,motorbike);
-       await delay(500);
-
-       shapeAnimationSeperate(circle,umbrella);
-       await delay(2000);
-
-       shapeAnimationCombine(circle,umbrella);
+       shapeAnimationCombine(circle,family);
 
        await delay(500);
+       hightlightanimationtext('savings');
 
        shapeAnimationSeperate(circle,savings);
        await delay(2000);
+
        shapeAnimationCombine(circle,savings);
+
        await delay(500);
-       shapeAnimationSeperate(circle,ecgheart);
-       await delay(2000);
-       shapeAnimationCombine(circle,ecgheart);
-       await delay(500);
+       hightlightanimationtext('elderly');
+
        shapeAnimationSeperate(circle,elderly);
        await delay(2000);
        shapeAnimationCombine(circle,elderly);
        await delay(500);
-       shapeAnimationSeperate(circle,injury);
+       hightlightanimationtext('ecgheart');
 
+       shapeAnimationSeperate(circle,ecgheart);
+       await delay(2000);
+       shapeAnimationCombine(circle,ecgheart);
+       await delay(500);
+       hightlightanimationtext('injury');
+
+       shapeAnimationSeperate(circle,injury);
        await delay(2000);
        shapeAnimationCombine(circle,injury);
        await delay(500);
-       shapeAnimationSeperate(circle,caraccident);
+
+       hightlightanimationtext('travel');
+
+       shapeAnimationSeperate(circle,travel);
 
        await delay(2000);
-       shapeAnimationCombine(circle,caraccident);
+       shapeAnimationCombine(circle,travel);
        await delay(500);
+       hightlightanimationtext('car');
+
        shapeAnimationSeperate(circle,car);
+
        await delay(2000);
        shapeAnimationCombine(circle,car);
        await delay(500);
+       hightlightanimationtext('motorbike');
+
+       shapeAnimationSeperate(circle,motorbike);
+       await delay(2000);
+       shapeAnimationCombine(circle,motorbike);
+       await delay(500);
+
+       hightlightanimationtext('commercialvehicle');
+
+       shapeAnimationSeperate(circle,commercialvehicle);
+       await delay(2000);
+       shapeAnimationCombine(circle,commercialvehicle);
+
+       await delay(500);
+
+       hightlightanimationtext('partnerexange');
+
        shapeAnimationSeperate(circle,partnerexange);
        await delay(2000);
+       shapeAnimationCombine(circle,partnerexange);
 
-      //  runSequence();
+       runSequence('repeat');
 
 
 }
-runSequence();
+runSequence('initial');
