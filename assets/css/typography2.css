@@ -6,14 +6,31 @@ body
   font-family: "Anek Tamil", sans-serif;
   font-variation-settings:"wdth" 100;
 
+  font-size: 18px;
+  line-height: 24px;
+
 }
 
 h1,h2,h3,h4,h5,h6
 {
   font-family: 'Anek Tamil Condensed';
 
-  /* font-family: "Anek Tamil", sans-serif; */
+  font-family: "Anek Tamil", sans-serif;
 font-variation-settings:"wdth" 70;
+
+}
+
+button
+{
+  font-family: 'Anek Tamil Condensed';
+
+  font-family: "Anek Tamil", sans-serif;
+font-variation-settings:"wdth" 70;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: normal;
 
 }
 
@@ -135,6 +152,26 @@ font-variation-settings:"wdth" 70;
     font-size: 18px;
     line-height: 24px;
     white-space: normal;
+}
+
+p
+{
+  font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    white-space: normal;
+}
+
+li 
+{
+
+  font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    white-space: normal;
+
 }
 
 .body-text-big

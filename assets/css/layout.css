@@ -2,7 +2,7 @@
 body
 {
 margin:0px;
-background: #fdefef;
+background: #e9e5e5;
 
 }
 
@@ -451,7 +451,7 @@ background: #fdefef;
     background-color: #ddd;
     height: 2px;
     width: 100%;
-    margin-bottom: 120px;
+    margin-bottom: 0px;
     margin-top: 120px;
 }
 
@@ -580,6 +580,8 @@ background: #fdefef;
 .retirement-image-wrapper
 {
     margin-top: 96px;
+    position: relative;
+
 }
 
 
@@ -588,6 +590,21 @@ background: #fdefef;
      width:100%;
      height: auto;
 }
+
+.retirement-image-wrapper::after
+{
+  background-color: rgba(0, 0, 0, 0.25);
+  content: "";
+  top:0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius:24px;
+  
+}
+
+
 
 .retirement-image-desktop
 {
@@ -1112,6 +1129,9 @@ flex-wrap: nowrap;
     padding-right: 24px;
   
 }
+
+
+
 
 .retirement-image-desktop
 {
