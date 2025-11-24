@@ -790,6 +790,7 @@ background: #e9e5e5;
 
     width: 48% ;
     padding:48px 48px;
+    overflow: hidden;
 
   }
 
@@ -811,13 +812,41 @@ background: #e9e5e5;
   position: relative;
   text-align: center;
 
+  height: 320px;
+  background-color: #ddd;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  
+
 }
 
-.other-services-card .other-services-image-wrap img
+.other-services-card .other-services-image-wrap .main-image
 {
 
-    width: 240px;
+    max-width: 240px;
+
+    width: auto;
     height: auto;
+    max-height: 240px;
+    position: relative;
+
+}
+.other-services-card .other-services-image-wrap .bg-image
+{
+
+    width: 200%;
+    height: auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: none;
+
+    
     
 
 }

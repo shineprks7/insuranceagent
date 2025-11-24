@@ -30,9 +30,12 @@ mobilemenu_button.addEventListener('click', function( event ){
 
 });
 
-const mobilemenu_link_button = document.querySelector('.mobile-link-button')
+const mobilemenu_link_button = document.querySelectorAll('.mobile-link-button')
 
-mobilemenu_link_button.addEventListener('click', function( event ){
+mobilemenu_link_button.forEach((el) => {
+
+
+   el.addEventListener('click', function( event ){
 
 
    const mobilemenu_button = document.querySelector('.mobile-hamburger-button')
@@ -60,3 +63,6 @@ mobilemenu_link_button.addEventListener('click', function( event ){
  
  
  });
+
+
+});
